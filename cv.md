@@ -1,11 +1,15 @@
 ## Evgenii Redchenko
 
+---
+
 ### Contacts:
 
 - **Email:** [neosylphur@gmail.com](mailto:neosylphur@gmail.com)
-- **Phone:** +7 927 134 7072
+- **Phone:** +7 (927) 134 70 72
 - **GitHub:** [Sylphur](https://github.com/Sylphur/)
 - **VK:** [Evgenii Rechenko](https://vk.com/id45209090)
+
+---
 
 ### About me:
 
@@ -37,6 +41,8 @@ public class NumberFun {
 }
 ```
 
+---
+
 ### Education:
 
 - Yuri Gagarin State Technical University of Saratov
@@ -44,3 +50,8 @@ public class NumberFun {
 - JavaScript on [learn.javascript.ru](https://learn.javascript.ru) (still in progress)
 - Java in [JavaRush](https://javarush.ru) (Lv. 30)
 - some HTML/CSS/JS workshops
+
+### Languages:
+
+1. Russian (native)
+2. English (A2+)
