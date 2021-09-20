@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.header {
+  height: 200px;
+  width: 900px;
+  margin: 0px auto;
+  background-color: #41688e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+}
+.header-img-container {
+  padding-left: 100px;
+  width: 270px;
+}
+.header-img {
+  height: 150px;
+  width: 150px;
+}
+.header-title {
+  padding-left: 70px;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+main {
+  width: 900px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+}
+aside {
+  width: 305px;
+  height: 1000px;
+  background-color: #e3e9ef;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.upper-section {
+  width: 595px;
+  background-color: #fff;
+}
+.content {
+  width: auto;
+  padding-left: 35px;
+  padding-right: 90px;
+  height: 1000px;
+}
+ul {
+  list-style-position: inside;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.content-element {
+  margin-top: 30px;
+}
+.aside-element {
+  float: right;
+  margin-right: 35px;
+  margin-top: 30px;
+  color: #41688e;
+}
+.contacts {
+  padding-top: 105px;
+}
+.education {
+  padding-top: 45px;
+}
+.skills {
+  padding-top: 30px;
+}
+.languages {
+  padding-top: 63px;
+}
+.code-ex {
+  padding-top: 30px;
+}
+.code-field {
+  background-color: #e3e9ef;
+  padding: 5px;
+}
+code {
+  font-family: monospace;
+}
+.video {
+  padding-top: 120px;
+}
+video {
+  width: 470px;
+}
+footer {
+  height: 100px;
+  width: 900px;
+  margin: 0px auto;
+  background-color: #41688e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.footer-logo {
+  width: 130px;
+  margin-right: 25px;
+}
+.upper {
+  font-size: 30px;
+  margin-left: 5px;
+}
+.footer-span {
+  margin-left: 25px;
+}
+.git-icon {
+  width: 30px;
+}
+.git-link {
+  display: flex;
+}
