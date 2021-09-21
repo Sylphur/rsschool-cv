@@ -17,6 +17,9 @@ body {
   align-items: center;
   color: #fff;
 }
+h6 {
+  font-size:16px;
+}
 .header-img-container {
   padding-left: 100px;
   width: 270px;
