@@ -9,7 +9,7 @@ body {
 }
 .header {
   height: 200px;
-  width: 900px;
+  width: 1050px;
   margin: 0px auto;
   background-color: #41688e;
   display: flex;
@@ -33,7 +33,7 @@ h1 {
   margin-bottom: 15px;
 }
 main {
-  width: 900px;
+  width: 1050px;
   margin: 0px auto;
   display: flex;
   flex-direction: row;
