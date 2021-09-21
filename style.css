@@ -18,7 +18,7 @@ body {
   color: #fff;
 }
 h6 {
-  font-size:16px;
+  font-size: 16px;
 }
 .header-img-container {
   padding-left: 100px;
@@ -43,21 +43,22 @@ main {
 }
 aside {
   width: 305px;
-  height: 1000px;
+  height: 1100px;
   background-color: #e3e9ef;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 .upper-section {
-  width: 595px;
+  width: 745px;
   background-color: #fff;
+  height: 1100px;
 }
 .content {
-  width: auto;
+  width: 745px;
   padding-left: 35px;
   padding-right: 90px;
-  height: 1000px;
+  height: 1050px;
 }
 ul {
   list-style-position: inside;
@@ -68,7 +69,7 @@ a {
   font-weight: bold;
 }
 .content-element {
-  margin-top: 30px;
+  padding-top: 30px;
 }
 .aside-element {
   float: right;
@@ -77,16 +78,16 @@ a {
   color: #41688e;
 }
 .contacts {
-  padding-top: 105px;
+  padding-top: 90px;
 }
 .education {
   padding-top: 45px;
 }
 .skills {
-  padding-top: 30px;
+  padding-top: 15px;
 }
 .languages {
-  padding-top: 63px;
+  padding-top: 53px;
 }
 .code-ex {
   padding-top: 30px;
@@ -94,6 +95,7 @@ a {
 .code-field {
   background-color: #e3e9ef;
   padding: 5px;
+  margin-top: 30px;
 }
 code {
   font-family: monospace;
@@ -101,12 +103,9 @@ code {
 .video {
   padding-top: 120px;
 }
-video {
-  width: 470px;
-}
 footer {
   height: 100px;
-  width: 900px;
+  width: 1050px;
   margin: 0px auto;
   background-color: #41688e;
   display: flex;
@@ -117,18 +116,22 @@ footer {
 }
 .footer-logo {
   width: 130px;
+  height: 130px;
   margin-right: 25px;
 }
 .upper {
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 5px;
 }
 .footer-span {
   margin-left: 25px;
 }
 .git-icon {
-  width: 30px;
+  width: 40px;
+  height: 40px;
 }
 .git-link {
+  width: 350px;
   display: flex;
+  justify-content: center;
 }
