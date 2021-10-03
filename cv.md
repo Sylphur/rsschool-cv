@@ -27,3 +27,26 @@ I am 26 years old. I have a university degree with applied information technolog
   - collections
 - SQL basics
 - Figma, Photoshop basics
+
+### Code examples:
+
+```Java
+public class NumberFun {
+  public static long findNextSquare(long sq) {
+      double sqrt = Math.sqrt(sq);
+      if (sqrt != (int) sqrt) return -1;
+      sqrt += 1;
+      return (long) (sqrt * sqrt);
+  }
+}
+```
+
+---
+
+### Education:
+
+- Yuri Gagarin State Technical University of Saratov
+- CS50 (video cource)
+- JavaScript on [learn.javascript.ru](https://learn.javascript.ru) (still in progress)
+- Java in [JavaRush](https://javarush.ru) (Lv. 30)
+- some HTML/CSS/JS workshops
