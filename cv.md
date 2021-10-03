@@ -50,3 +50,8 @@ public class NumberFun {
 - JavaScript on [learn.javascript.ru](https://learn.javascript.ru) (still in progress)
 - Java in [JavaRush](https://javarush.ru) (Lv. 30)
 - some HTML/CSS/JS workshops
+
+### Languages:
+
+1. Russian (native)
+2. English (A2+)
