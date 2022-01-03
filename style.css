@@ -16,6 +16,8 @@ body {
   flex-direction: row;
   align-items: center;
   color: #fff;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.25);
+  
 }
 .header-img-container {
   padding-left: 100px;
@@ -37,6 +39,7 @@ main {
   margin: 0px auto;
   display: flex;
   flex-direction: row;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.22);
 }
 aside {
   width: 305px;
@@ -49,7 +52,9 @@ aside {
 .upper-section {
   width: 745px;
   background-color: #fff;
-  height: 1100px;
+  height: 1120px;
+  box-shadow: -1px 0px 10px rgba(0,0,0,0.22);
+  
 }
 .content {
   width: 745px;
@@ -110,6 +115,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   color: #fff;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.22);
 }
 .footer-logo {
   width: 130px;
@@ -131,4 +137,8 @@ footer {
   width: 350px;
   display: flex;
   justify-content: center;
+}
+.footer-span {
+  color: #000;
+  font-weight: bold;
 }
