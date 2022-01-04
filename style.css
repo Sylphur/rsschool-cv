@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.header {
+  height: 200px;
+  width: 1050px;
+  margin: 0px auto;
+  background-color: #41688e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.25);
+  
+}
+.header-img-container {
+  padding-left: 100px;
+  width: 270px;
+}
+.header-img {
+  height: 150px;
+  width: 150px;
+}
+.header-title {
+  padding-left: 70px;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+main {
+  width: 1050px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.22);
+}
+nav {
+  width: 305px;
+  height: 1100px;
+  background-color: #e3e9ef;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.upper-section {
+  width: 745px;
+  background-color: #fff;
+  height: 1120px;
+  box-shadow: -1px 0px 10px rgba(0,0,0,0.22);
+  
+}
+.content {
+  width: 745px;
+  padding-left: 35px;
+  padding-right: 90px;
+  height: 1050px;
+}
+ul {
+  list-style-position: inside;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.content-element {
+  padding-top: 30px;
+}
+.nav-element {
+  float: right;
+  margin-right: 35px;
+  margin-top: 30px;
+  color: #41688e;
+}
+.contacts {
+  padding-top: 90px;
+}
+.education {
+  padding-top: 45px;
+}
+.skills {
+  padding-top: 15px;
+}
+.languages {
+  padding-top: 53px;
+}
+.code-ex {
+  padding-top: 30px;
+}
+.code-field {
+  background-color: #e3e9ef;
+  padding: 5px;
+  margin-top: 30px;
+}
+code {
+  font-family: monospace;
+}
+.video {
+  padding-top: 120px;
+}
+footer {
+  height: 100px;
+  width: 1050px;
+  margin: 0px auto;
+  background-color: #41688e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.22);
+}
+.footer-logo {
+  width: 130px;
+  height: 130px;
+  margin-right: 25px;
+}
+.upper {
+  font-size: 40px;
+  margin-left: 5px;
+}
+.footer-span {
+  margin-left: 25px;
+}
+.git-icon {
+  width: 40px;
+  height: 40px;
+}
+.git-link {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+.footer-span {
+  color: #000;
+  font-weight: bold;
+}
