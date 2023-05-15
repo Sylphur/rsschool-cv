@@ -19,80 +19,73 @@
         <img src="./img/logo.png" alt="my photo" class="header-img">
       </div>
       <div class="header-title">
-        <h1>Evgenii Rechenko</h1>
-        <h2>FRONTEND DEVELOPER</h2>
+        <h1 class="header-h1">Evgenii Rechenko</h1>
+        <h2 class="header-h2">FRONTEND DEVELOPER</h2>
       </div>
+      <img src="./img/ru.png" alt="country_img_ru" class="country-img country-img-ru">
+      <img src="./img/uk.png" alt="country_img_en" class="country-img country-img-en">
     </div>
   </header>
   <main>
     <aside>
-      <div class="aside-element">
-        <h2>About Me</h2>
+      <div class="aside-element about">
+        <h2 class="about-h2">About Me</h2>
       </div>
       <div class="aside-element contacts">
-        <h2>Contacts</h2>
+        <h2 class="contacts-h2">Contacts</h2>
       </div>
       <div class="aside-element education">
-        <h2>Education</h2>
+        <h2 class="education-h2">Education</h2>
       </div>
       <div class="aside-element skills">
-        <h2>Skills</h2>
+        <h2 class="skills-h2">Skills</h2>
       </div>
       <div class="aside-element languages">
-        <h2>Languages</h2>
-      </div>
-      <div class="aside-element code-ex">
-        <h2>Code example</h2>
+        <h2 class="languages-h2">Languages</h2>
       </div>
       <div class="aside-element video">
-        <h2>Video</h2>
+        <h2 class="video-h2">Video</h2>
       </div>
     </aside>
     <section class="upper-section">
       <div class="content">
         <div class="content-element">
-          <p>I am 26 years old. I have a university degree with applied information technologies.I started my
+          <p class="about-description">I am 26 years old. I have a university degree with applied information technologies.I started my
             programming carrier
-            year ago with a commercial project - a site for restoraunt. After I was changed to backend developement
-            (Java). Now I`m
-            hesitating which occupation I will associate my future activity with. But I believe that my perseverance,
-            keen interest
-            in coding and ability to learn new skills will help me become professional. </p>
+            in 2019 with a commercial project - a site for restoraunt. After I was changed to backend developement
+            (Java), and then switched back to frontend - I finished EPAM courses, lab and got an offer. Now I`m
+            still working on a project affiliated with epam</p>
         </div>
         <div class="content-element">
           <ul>
-            <li>Email: <a href="mailto:neosylphur@gmail.com">neosylphur@gmail.com</a></li>
-            <li>Phone: +7 (927) 134 70 72</li>
-            <li>GitHub: <a href="https://github.com/Sylphur/">sylphur</a></li>
-            <li>VK: <a href="https://vk.com/id45209090">Evgenii Rechenko</a></li>
+            <li><span class="contacts-email">Email:</span><a href="mailto:neosylphur@gmail.com" class="link"> neosylphur@gmail.com</a></li>
+            <li><span class="contacts-phone">Phone:</span>  +7 (927) 134 70 72</li>
+            <li>GitHub: <a href="https://github.com/Sylphur/" class="link">sylphur</a></li>
+            <li>VK: <a href="https://vk.com/id45209090" class="link contacts-vk">Evgenii Rechenko</a></li>
           </ul>
         </div>
         <div class="content-element">
-          <p>
-          <h3>Yuri Gagarin State Technical University of Saratov.</h3>
-          <p>Harward`s CS-50 (video course). Some others courses/workshops. </p>
+          <h3 class="education-li-1">Yuri Gagarin State Technical University of Saratov.</h3>
+          <p class="education-li-2">Harward`s CS-50 (video). </p>
+          <p class="education-li-3">Rolling Scopes school (epam)</p>
+          <p class="education-li-4">Java Rush (lv.30)</p>
+          <p class="education-li-5">tons of workshops :)</p>
         </div>
         <div class="content-element">
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS (very start)</li>
-            <li>JAVA (core, collections)</li>
-            <li>Figma, PS, SQL (basics)</li>
+            <li>HTML/CSS</li>
+            <li>JavaScript/TypeScript</li>
+            <li>Angular</li>
+            <li>React (basics)</li>
+            <li>Node.js</li>
+            <li>JAVA (vanilla)</li>
+            <li>Figma, Photoshop</li>
+            <li>DB: postgre / noSQL: mongo</li>
           </ul>
         </div>
         <div class="content-element">
-          <p>Russian (native) <br> English (A2+)</p>
-        </div>
-        <div class="content-element code-field">
-          <pre><code>public class NumberFun { 
-          public static long findNextSquare(long sq) { 
-          double sqrt = Math.sqrt(sq);
-          if (sqrt != (int) sqrt) return -1;
-          sqrt += 1;
-          return (long) (sqrt * sqrt);
-            }
-          }</code></pre>
+          <p class="language-p-ru">Russian (native)</p>
+          <p class="language-p-en">English (A2+)</p>
         </div>
         <div class="content-element video-element">
           <iframe width="620" height="350" src="https://www.youtube.com/embed/3gVNaurcGx0" title="YouTube video player"
@@ -100,18 +93,18 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
         </div>
-
       </div>
     </section>
   </main>
   <footer>
-    <span class="upper footer-span">2021</span>
+    <span class="upper footer-span">2023</span>
     <div class="git-link">
       <img src="./img/git_icon.png" alt="github_icon" class="git-icon">
-      <a href="https://github.com/Sylphur" class="upper">Me on GitHub</a>
+      <a href="https://github.com/Sylphur" class="upper">GitHub</a>
     </div>
     <a href="https://rs.school/js/"><img src="./img/RSSchool_white.svg" alt="rsschool-logo" class="footer-logo"></a>
   </footer>
+  <script src="./index.js" type="module"></script>
 </body>
 
 </html>

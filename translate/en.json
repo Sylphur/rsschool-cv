@@ -1,0 +1,33 @@
+{
+  "header": {
+    "header-title": "Evgenii Rechenko",
+    "header-job": "FRONTEND DEVELOPER"
+  },
+  "aside": {
+    "about": "About Me",
+    "contacts": "Contacts",
+    "education": "Education",
+    "skills": "Skills",
+    "languages": "Languages",
+    "video": "Video"
+  },
+  "main": {
+    "about": "I am 28 years old. I have a university degree with applied information technologies.I started my programming carrier in 2019 with a commercial project - a site for restoraunt. After I was changed to backend developement (Java), and then switched back to frontend - I finished EPAM courses, lab and got an offer. Now I`m still working on a project affiliated with epam",
+    "contacts": {
+      "1": "Email:",
+      "2": "Phone:",
+      "VK": "Evgenii Rechenko"
+    },
+    "education": {
+      "1": "Yuri Gagarin State Technical University of Saratov",
+      "2": "Harward`s CS-50 (video)",
+      "3": "Rolling Scopes school (epam)",
+      "4": "Java Rush (lv.30)",
+      "5": "Tons of workshops :)"
+    },
+    "languages": {
+      "1": "Russian (native)",
+      "2": "English (A2+)"
+    }
+  }
+}

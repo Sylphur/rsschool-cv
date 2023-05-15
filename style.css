@@ -16,6 +16,7 @@ body {
   flex-direction: row;
   align-items: center;
   color: #fff;
+  position: relative;
 }
 .header-img-container {
   padding-left: 100px;
@@ -40,7 +41,6 @@ main {
 }
 aside {
   width: 305px;
-  height: 1100px;
   background-color: #e3e9ef;
   display: flex;
   flex-direction: column;
@@ -49,13 +49,12 @@ aside {
 .upper-section {
   width: 745px;
   background-color: #fff;
-  height: 1100px;
 }
 .content {
   width: 745px;
   padding-left: 35px;
   padding-right: 90px;
-  height: 1050px;
+  margin-bottom: 20px;
 }
 ul {
   list-style-position: inside;
@@ -74,20 +73,20 @@ a {
   margin-top: 30px;
   color: #41688e;
 }
+.about {
+  margin-bottom: 70px;
+}
 .contacts {
-  padding-top: 90px;
+  margin-bottom: 50px;
 }
 .education {
-  padding-top: 45px;
+  margin-bottom: 65px;
 }
 .skills {
-  padding-top: 15px;
+  margin-bottom: 125px;
 }
 .languages {
-  padding-top: 53px;
-}
-.code-ex {
-  padding-top: 30px;
+  margin-bottom: 10px;
 }
 .code-field {
   background-color: #e3e9ef;
@@ -97,11 +96,7 @@ a {
 code {
   font-family: monospace;
 }
-.video {
-  padding-top: 120px;
-}
 footer {
-  height: 100px;
   width: 1050px;
   margin: 0px auto;
   background-color: #41688e;
@@ -113,7 +108,7 @@ footer {
 }
 .footer-logo {
   width: 130px;
-  height: 130px;
+  height: 100px;
   margin-right: 25px;
 }
 .upper {
@@ -131,4 +126,21 @@ footer {
   width: 350px;
   display: flex;
   justify-content: center;
+}
+.link:hover {
+  color: #41688e;
+}
+.country-img {
+  width: 32px;
+  height: 21px;
+  position: absolute;
+  cursor: pointer;
+}
+.country-img-en {
+  bottom: 20px;
+  right: 20px;
+}
+.country-img-ru {
+  bottom: 20px;
+  right: 70px;
 }
