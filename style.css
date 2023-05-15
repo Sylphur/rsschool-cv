@@ -16,6 +16,7 @@ body {
   flex-direction: row;
   align-items: center;
   color: #fff;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.25);
   position: relative;
 }
 .header-img-container {
@@ -38,8 +39,9 @@ main {
   margin: 0px auto;
   display: flex;
   flex-direction: row;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.22);
 }
-aside {
+nav {
   width: 305px;
   background-color: #e3e9ef;
   display: flex;
@@ -49,6 +51,8 @@ aside {
 .upper-section {
   width: 745px;
   background-color: #fff;
+  box-shadow: -1px 0px 10px rgba(0,0,0,0.22);
+  
 }
 .content {
   width: 745px;
@@ -67,7 +71,7 @@ a {
 .content-element {
   padding-top: 30px;
 }
-.aside-element {
+.nav-element {
   float: right;
   margin-right: 35px;
   margin-top: 30px;
@@ -105,6 +109,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   color: #fff;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.22);
 }
 .footer-logo {
   width: 130px;
@@ -126,6 +131,10 @@ footer {
   width: 350px;
   display: flex;
   justify-content: center;
+}
+.footer-span {
+  color: #000;
+  font-weight: bold;
 }
 .link:hover {
   color: #41688e;
