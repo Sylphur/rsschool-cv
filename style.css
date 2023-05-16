@@ -81,13 +81,13 @@ a {
   margin-bottom: 70px;
 }
 .contacts {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 .education {
-  margin-bottom: 65px;
+  margin-bottom: 70px;
 }
 .skills {
-  margin-bottom: 125px;
+  margin-bottom: 120px;
 }
 .languages {
   margin-bottom: 10px;
@@ -102,6 +102,7 @@ code {
 }
 footer {
   width: 1050px;
+  height: 100px;
   margin: 0px auto;
   background-color: #41688e;
   display: flex;
