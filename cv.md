@@ -13,31 +13,37 @@
 
 ### About me:
 
-I am 26 years old. I have a university degree with applied information technologies.I started my programming carrier year ago with a commercial project - a site for restoraunt. After I was changed to backend developement (Java). Now I`m hesitating which occupation I will associate my future activity with. But I believe that my perseverance, keen interest in coding and ability to learn new skills will help me become professional.
+I am 31 years old. I have a university degree with applied information technologies.I started my programming carrier couple years ago with a commercial project - a site for restaurant. After I was changed to backend (Java), then went back to JS, made some freelance projects, but never was a full-time professional programmer. Currently I`m working in a related field, writing programs for machine-building machining systems. I’ve just recalled my past passion for web programming and want to brush up on my skills.
 
 ### Skills:
 
 - HTML
 - CSS
-  - bootstrap
+  - SASS/LESS
+  - tailwind
 - JavaScript
-  - fundamentals
-- Java
+  - TypeScript
+- React/Angular
   - core
-  - collections
+  - redux
 - SQL basics
 - Figma, Photoshop basics
 
 ### Code examples:
 
-```Java
-public class NumberFun {
-  public static long findNextSquare(long sq) {
-      double sqrt = Math.sqrt(sq);
-      if (sqrt != (int) sqrt) return -1;
-      sqrt += 1;
-      return (long) (sqrt * sqrt);
+```JavaScript
+function shuffle(array) { 
+  const newArray = [...array];
+  if (data.cheat) {
+    data.cheat = false;
+    return newArray;
   }
+  for (let i = newArray.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+
+  return newArray;
 }
 ```
 
@@ -54,4 +60,4 @@ public class NumberFun {
 ### Languages:
 
 1. Russian (native)
-2. English (A2+)
+2. English (B1+)
