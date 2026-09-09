@@ -43,7 +43,6 @@ main {
 }
 nav {
   width: 305px;
-  height: 1100px;
   background-color: #e3e9ef;
   display: flex;
   flex-direction: column;
@@ -52,7 +51,6 @@ nav {
 .upper-section {
   width: 745px;
   background-color: #fff;
-  height: 1120px;
   box-shadow: -1px 0px 10px rgba(0,0,0,0.22);
   
 }
@@ -60,7 +58,6 @@ nav {
   width: 745px;
   padding-left: 35px;
   padding-right: 90px;
-  height: 1050px;
 }
 ul {
   list-style-position: inside;
@@ -80,19 +77,19 @@ a {
   color: #41688e;
 }
 .contacts {
-  padding-top: 90px;
+  padding-top: 104px;
 }
 .education {
-  padding-top: 45px;
+  padding-top: 48px;
 }
 .skills {
-  padding-top: 15px;
+  padding-top: 13px;
 }
 .languages {
-  padding-top: 53px;
+  padding-top: 85px;
 }
 .code-ex {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .code-field {
   background-color: #e3e9ef;
@@ -103,7 +100,18 @@ code {
   font-family: monospace;
 }
 .video {
-  padding-top: 120px;
+  padding-top: 245px;
+}
+.video-element {
+  width: 100%;
+  margin: 0 auto;
+}
+.video-element iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+  margin-bottom: 5px;
 }
 footer {
   height: 100px;
