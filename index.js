@@ -1,5 +1,5 @@
-import translateRu from './translate/ru.json' assert { type: "json" };
-import translateEn from './translate/en.json' assert { type: "json" };
+import translateRu from './translate/ru.json' with { type: "json" };
+import translateEn from './translate/en.json' with { type: "json" };
 
 const COUNTRY_IMG_EN = document.querySelector('.country-img-en');
 const COUNTRY_IMG_RU = document.querySelector('.country-img-ru');
@@ -13,6 +13,7 @@ const education = document.querySelector('.education-h2');
 const skills = document.querySelector('.skills-h2');
 const languages = document.querySelector('.languages-h2');
 const video = document.querySelector('.video-h2');
+const code = document.querySelector('.code-h2');
 
 const about_description = document.querySelector('.about-description');
 const contacts_email = document.querySelector('.contacts-email');
@@ -29,6 +30,9 @@ const language_ru = document.querySelector('.language-p-ru');
 const language_en = document.querySelector('.language-p-en');
 
 const about_block = document.querySelector('.about');
+
+
+
 
 if (!localStorage.getItem('local')) localStorage.setItem('local', 'en');
 renderLocalSettings();
@@ -67,6 +71,7 @@ function translateContent(locale) {
   else if (locale === 'ru') translateData = translateRu;
   else return;
 
+
   header_title.innerHTML = translateData.header['header-title'];
   header_job.innerHTML = translateData.header['header-job'];
 
@@ -76,6 +81,7 @@ function translateContent(locale) {
   skills.innerHTML = translateData.aside.skills;
   languages.innerHTML = translateData.aside.languages;
   video.innerHTML = translateData.aside.video;
+  code.innerHTML = translateData.aside.code;
 
   about_description.innerHTML = translateData.main.about;
   contacts_email.innerHTML = translateData.main.contacts[1];

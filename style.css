@@ -17,6 +17,7 @@ body {
   align-items: center;
   color: #fff;
   box-shadow: 0 10px 10px rgba(0,0,0,0.25);
+  position: relative;
 }
 .header-img-container {
   padding-left: 100px;
@@ -79,19 +80,19 @@ a {
   margin-bottom: 70px;
 }
 .contacts {
-  padding-top: 104px;
+  padding-top: 37px;
 }
 .education {
   padding-top: 48px;
 }
 .skills {
-  padding-top: 10px;
+  padding-top: 70px;
 }
 .languages {
-  padding-top: 85px;
+  padding-top: 83px;
 }
-.code-ex {
-  padding-top: 15px;
+.codeex {
+  padding-top: 10px;
 }
 .code-field {
   background-color: #e3e9ef;
@@ -101,8 +102,11 @@ a {
 code {
   font-family: monospace;
 }
+.code-ex {
+  padding-top: 10px;
+}
 .video {
-  padding-top: 245px;
+  padding-top: 250px;
 }
 .video-element {
   width: 100%;

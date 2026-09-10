@@ -9,10 +9,11 @@
     "education": "Education",
     "skills": "Skills",
     "languages": "Languages",
-    "video": "Video"
+    "video": "Video",
+    "code": "Code"
   },
   "main": {
-    "about": "I am 28 years old. I have a university degree with applied information technologies.I started my programming carrier in 2019 with a commercial project - a site for restoraunt. After I was changed to backend developement (Java), and then switched back to frontend - I finished EPAM courses, lab and got an offer. Now I`m still working on a project affiliated with epam",
+    "about": "I am 31 years old. I have a university degree with applied information technologies. <br> I started my programming carrier couple years ago with a commercial project - a site for restaurant. After I was changed to backend (Java), then went back to JS, made some freelance projects, but never was a full-time professional programmer. <br> Currently I`m working in a related industry, writing programs for metallurgical machining centers. I’ve just recalled my past passion for web programming and want to brush up on my skills.",
     "contacts": {
       "1": "Email:",
       "2": "Phone:",
@@ -23,7 +24,7 @@
       "2": "Harward`s CS-50 (video)",
       "3": "Rolling Scopes school (epam)",
       "4": "Java Rush (lv.30)",
-      "5": "Tons of workshops :)"
+      "5": "Tons of workshops"
     },
     "languages": {
       "1": "Russian (native)",
