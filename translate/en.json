@@ -1,0 +1,34 @@
+{
+  "header": {
+    "header-title": "Evgenii Rechenko",
+    "header-job": "FRONTEND DEVELOPER"
+  },
+  "aside": {
+    "about": "About Me",
+    "contacts": "Contacts",
+    "education": "Education",
+    "skills": "Skills",
+    "languages": "Languages",
+    "video": "Video",
+    "code": "Code"
+  },
+  "main": {
+    "about": "I am 31 years old. I have a university degree with applied information technologies. <br> I started my programming carrier couple years ago with a commercial project - a site for restaurant. After I was changed to backend (Java), then went back to JS, made some freelance projects, but never was a full-time professional programmer. <br> Currently I`m working in a related industry, writing programs for metallurgical machining centers. I’ve just recalled my past passion for web programming and want to brush up on my skills.",
+    "contacts": {
+      "1": "Email:",
+      "2": "Phone:",
+      "VK": "Evgenii Rechenko"
+    },
+    "education": {
+      "1": "Yuri Gagarin State Technical University of Saratov",
+      "2": "Harward`s CS-50 (video)",
+      "3": "Rolling Scopes school",
+      "4": "Java Rush (lv.30)",
+      "5": "Tons of workshops"
+    },
+    "languages": {
+      "1": "Russian (native)",
+      "2": "English (B1/B2)"
+    }
+  }
+}

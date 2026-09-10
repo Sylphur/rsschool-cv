@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evgenii Rechenko (CV)</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="header-img-container">
+        <img src="./img/logo.png" alt="my photo" class="header-img">
+      </div>
+      <div class="header-title">
+        <h1 class="header-h1">Evgenii Rechenko</h1>
+        <h2 class="header-h2">FRONTEND DEVELOPER</h2>
+      </div>
+      <img src="./img/ru.png" alt="country_img_ru" class="country-img country-img-ru">
+      <img src="./img/uk.png" alt="country_img_en" class="country-img country-img-en">
+    </div>
+  </header>
+  <main>
+    <nav>
+      <div class="nav-element about">
+        <h2 class="about-h2">About Me</h2>
+      </div>
+      <div class="nav-element contacts">
+        <h2 class="contacts-h2">Contacts</h2>
+      </div>
+      <div class="nav-element education">
+        <h2 class="education-h2">Education</h2>
+      </div>
+      <div class="nav-element skills">
+        <h2 class="skills-h2">Skills</h2>
+      </div>
+      <div class="nav-element languages">
+        <h2 class="languages-h2">Languages</h2>
+      </div>
+      <div class="nav-element codeex">
+        <h2 class="code-h2">Code</h2>
+      </div>
+      <div class="nav-element video">
+        <h2 class="video-h2">Video</h2>
+      </div>
+    </nav>
+    <section class="upper-section">
+      <div class="content">
+        <div class="content-element">
+          <p class="about-description">I am 31 years old. I have a university degree with applied information technologies. <br>
+            I started my programming carrier couple years ago with a commercial project - a site for restaurant.
+            After I was changed to backend (Java), then went back to JS, made some freelance projects,
+            but never was a full-time professional programmer. <br>
+            Currently I`m working in a related industry, writing programs for metallurgical machining centers.
+            I’ve just recalled my past passion for web programming and want to brush up on my skills. </p>
+        </div>
+        <div class="content-element">
+          <ul>
+            <li><span class="contacts-email">Email:</span><a href="mailto:neosylphur@gmail.com" class="link"> neosylphur@gmail.com</a></li>
+            <li><span class="contacts-phone">Phone:</span>  +7 (927) 134 70 72</li>
+            <li>GitHub: <a href="https://github.com/Sylphur/" class="link">sylphur</a></li>
+            <li>VK: <a href="https://vk.com/id45209090" class="link contacts-vk">Evgenii Rechenko</a></li>
+          </ul>
+        </div>
+        <div class="content-element">
+          <h3 class="education-li-1">Yuri Gagarin State Technical University of Saratov.</h3>
+          <p class="education-li-2">Harward`s CS-50 (video course). Some others courses/workshops. </p>
+          <p class="education-li-3">Rolling Scopes school (epam) </p>
+          <p class="education-li-4">Java Rush (lv.30) </p>
+          <p class="education-li-5">Tons of workshops</p>
+        </div>
+        <div class="content-element">
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript/TypeScript</li>
+            <li>React/Angular</li>
+            <li>Node.js/Nest.js</li>
+            <li>Java, php (basics)</li>
+            <li>Figma, PS, SQL (basics)</li>
+          </ul>
+        </div>
+        <div class="content-element">
+          <ul>
+            <li class="language-p-ru">Russian (native)</li>
+            <li class="language-p-en">English (B1/B2)</li>
+          </ul>
+        </div>
+        <div class="content-element code-field">
+          <pre><code>
+            function shuffle(array) {
+              const newArray = [...array];
+              if (data.cheat) {
+                data.cheat = false;
+                return newArray;
+              }
+              for (let i = newArray.length - 1; i &gt; 0; i--) {
+                let j = Math.floor(Math.random() * (i + 1));
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+              }
+              return newArray;
+            }
+          </code></pre>
+        </div>
+        <div class="content-element video-element">
+          <iframe src="https://www.youtube.com/embed/3gVNaurcGx0" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span class="upper footer-span">2026</span>
+    <div class="git-link">
+      <img src="./img/git_icon.png" alt="github_icon" class="git-icon">
+      <a href="https://github.com/Sylphur" class="upper">GitHub</a>
+    </div>
+    <a href="https://rs.school/"><img src="./img/RSSchool_white.svg" alt="rsschool-logo" class="footer-logo"></a>
+  </footer>
+  <script src="./index.js" type="module"></script>
+</body>
+
+</html>
