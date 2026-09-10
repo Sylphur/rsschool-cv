@@ -17,7 +17,6 @@ body {
   align-items: center;
   color: #fff;
   box-shadow: 0 10px 10px rgba(0,0,0,0.25);
-  position: relative;
 }
 .header-img-container {
   padding-left: 100px;
@@ -52,13 +51,12 @@ nav {
   width: 745px;
   background-color: #fff;
   box-shadow: -1px 0px 10px rgba(0,0,0,0.22);
-  
+
 }
 .content {
   width: 745px;
   padding-left: 35px;
   padding-right: 90px;
-  margin-bottom: 20px;
 }
 ul {
   list-style-position: inside;
@@ -81,16 +79,19 @@ a {
   margin-bottom: 70px;
 }
 .contacts {
-  margin-bottom: 45px;
+  padding-top: 104px;
 }
 .education {
-  margin-bottom: 70px;
+  padding-top: 48px;
 }
 .skills {
-  margin-bottom: 120px;
+  padding-top: 10px;
 }
 .languages {
-  margin-bottom: 10px;
+  padding-top: 85px;
+}
+.code-ex {
+  padding-top: 15px;
 }
 .code-field {
   background-color: #e3e9ef;
@@ -99,6 +100,20 @@ a {
 }
 code {
   font-family: monospace;
+}
+.video {
+  padding-top: 245px;
+}
+.video-element {
+  width: 100%;
+  margin: 0 auto;
+}
+.video-element iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+  margin-bottom: 5px;
 }
 footer {
   width: 1050px;
