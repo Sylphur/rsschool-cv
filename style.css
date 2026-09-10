@@ -89,10 +89,10 @@ a {
   padding-top: 70px;
 }
 .languages {
-  padding-top: 83px;
+  padding-top: 87px;
 }
 .codeex {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 .code-field {
   background-color: #e3e9ef;
@@ -101,9 +101,6 @@ a {
 }
 code {
   font-family: monospace;
-}
-.code-ex {
-  padding-top: 10px;
 }
 .video {
   padding-top: 250px;
@@ -172,4 +169,10 @@ footer {
 .country-img-ru {
   bottom: 20px;
   right: 70px;
+}
+.country-img-en:hover, .country-img-ru:hover {
+  opacity: 1;
+}
+.inactive-locale {
+  opacity: 0.3;
 }

@@ -40,15 +40,15 @@ renderLocalSettings();
 function renderLocalSettings () {
   switch (localStorage.getItem('local')) {
     case 'en': {
-      COUNTRY_IMG_EN.style.opacity = '1';
-      COUNTRY_IMG_RU.style.opacity = '0.3';
+      COUNTRY_IMG_EN.classList.remove('inactive-locale');
+      COUNTRY_IMG_RU.classList.add('inactive-locale');
       about_block.style.marginBottom = "70px";
       translateContent('en');
       break;
     }
     case 'ru' : {
-      COUNTRY_IMG_EN.style.opacity = '0.3';
-      COUNTRY_IMG_RU.style.opacity = '1';
+      COUNTRY_IMG_EN.classList.add('inactive-locale');
+      COUNTRY_IMG_RU.classList.remove('inactive-locale');
       about_block.style.marginBottom = "105px";
       translateContent('ru');
       break;
