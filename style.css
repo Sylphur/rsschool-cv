@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.header {
+  height: 200px;
+  width: 1050px;
+  margin: 0px auto;
+  background-color: #41688e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.25);
+  position: relative;
+}
+.header-img-container {
+  padding-left: 100px;
+  width: 270px;
+}
+.header-img {
+  height: 150px;
+  width: 150px;
+}
+.header-title {
+  padding-left: 70px;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+main {
+  width: 1050px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.22);
+}
+nav {
+  width: 305px;
+  background-color: #e3e9ef;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.upper-section {
+  width: 745px;
+  background-color: #fff;
+  box-shadow: -1px 0px 10px rgba(0,0,0,0.22);
+
+}
+.content {
+  width: 745px;
+  padding-left: 35px;
+  padding-right: 90px;
+}
+ul {
+  list-style-position: inside;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.content-element {
+  padding-top: 30px;
+}
+.nav-element {
+  float: right;
+  margin-right: 35px;
+  margin-top: 30px;
+  color: #41688e;
+}
+.about {
+  margin-bottom: 70px;
+}
+.contacts {
+  padding-top: 37px;
+}
+.education {
+  padding-top: 48px;
+}
+.skills {
+  padding-top: 70px;
+}
+.languages {
+  padding-top: 87px;
+}
+.codeex {
+  padding-top: 15px;
+}
+.code-field {
+  background-color: #e3e9ef;
+  padding: 5px;
+  margin-top: 30px;
+}
+code {
+  font-family: monospace;
+}
+.video {
+  padding-top: 250px;
+}
+.video-element {
+  width: 100%;
+  margin: 0 auto;
+}
+.video-element iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+  margin-bottom: 5px;
+}
+footer {
+  width: 1050px;
+  height: 100px;
+  margin: 0px auto;
+  background-color: #41688e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.22);
+}
+.footer-logo {
+  width: 130px;
+  height: 100px;
+  margin-right: 25px;
+}
+.upper {
+  font-size: 40px;
+  margin-left: 5px;
+}
+.footer-span {
+  margin-left: 25px;
+}
+.git-icon {
+  width: 40px;
+  height: 40px;
+}
+.git-link {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+.footer-span {
+  color: #000;
+  font-weight: bold;
+}
+.link:hover {
+  color: #41688e;
+}
+.country-img {
+  width: 32px;
+  height: 21px;
+  position: absolute;
+  cursor: pointer;
+}
+.country-img-en {
+  bottom: 20px;
+  right: 20px;
+}
+.country-img-ru {
+  bottom: 20px;
+  right: 70px;
+}
+.country-img-en:hover, .country-img-ru:hover {
+  opacity: 1;
+}
+.inactive-locale {
+  opacity: 0.3;
+}
